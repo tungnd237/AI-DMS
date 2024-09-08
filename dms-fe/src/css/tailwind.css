@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .annotation-group {
+        color: #000000;
+        background-color: #F2F2F2;
+        @apply flex items-center p-3.5 font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+    }
+}

@@ -1,0 +1,11 @@
+.search-bar__overlay {
+    top: 51px;
+    left: 35px;
+    border: solid 1px;
+    max-width: 700px;
+    min-height: 100px;
+}
+
+.search-bar__overlay__item-list {
+
+}

@@ -1,0 +1,4 @@
+input:disabled, textarea:disabled {
+    background-color: #DCDAD1;
+    background-image: none;
+}

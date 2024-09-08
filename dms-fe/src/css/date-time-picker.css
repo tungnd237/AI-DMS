@@ -1,0 +1,11 @@
+.data-platform .react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+    right: 165px;
+}
+
+.data-platform .react-datepicker__time-container {
+    width: 150px;
+}
+
+.data-platform .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+    width: 100%;
+}

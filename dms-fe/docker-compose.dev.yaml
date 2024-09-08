@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  dms_dp_fe:
+    image: asia.gcr.io/vinai-dms/dms-dp-fe:1.0.5-dev
+    build:
+      context: .
+      args:
+        ENV_NAME: dev

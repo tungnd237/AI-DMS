@@ -1,0 +1,9 @@
+.Collapsible__trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Collapsible__trigger.is-open svg {
+    transform: rotate(180deg);
+}

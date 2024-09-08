@@ -1,0 +1,11 @@
+.my-group {
+    /* background-color: black; */
+    border: 1px solid #F2F2F2
+}
+
+.annotation-item__color-box {
+    height: 20px;
+    width: 20px;
+    margin: 2px auto;
+    border-radius: 2px;
+}

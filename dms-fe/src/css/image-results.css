@@ -1,0 +1,28 @@
+.gridStyle {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.gridStyle__item {
+  /*width: 160px;*/
+  height: 140px;
+  /*margin: 0.5rem;*/
+}
+
+
+@media (max-width: 640px) {
+  .gridStyle {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .gridStyle {
+    grid-template-columns: 1fr;
+  }
+}
+
+.parent:hover .parent-hover\:show-card {
+  display:block;
+}

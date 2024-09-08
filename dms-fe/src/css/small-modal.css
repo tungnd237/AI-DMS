@@ -1,0 +1,9 @@
+.small-modal {
+    z-index: 40;
+    transition: all 500ms ease-in-out;
+}
+
+.small-modal__content {
+    flex-grow: 5;
+    height: 50%;
+}
